@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CCB7B729F48AF1000805F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7B629F48AF1000805F4 /* AppDelegate.swift */; };
+		96CCB7B929F48AF1000805F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7B829F48AF1000805F4 /* SceneDelegate.swift */; };
+		96CCB7BE29F48AF1000805F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB7BC29F48AF1000805F4 /* Main.storyboard */; };
+		96CCB7C029F48AF3000805F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB7BF29F48AF3000805F4 /* Assets.xcassets */; };
+		96CCB7C329F48AF3000805F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB7C129F48AF3000805F4 /* LaunchScreen.storyboard */; };
+		96CCB7CC29F48EE4000805F4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7CA29F48EE4000805F4 /* TableViewCell.swift */; };
+		96CCB7CD29F48EE4000805F4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96CCB7CB29F48EE4000805F4 /* TableViewCell.xib */; };
+		96CCB7DD29F49F0E000805F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7DC29F49F0E000805F4 /* HomeViewController.swift */; };
+		96CCB7DF29F49F28000805F4 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7DE29F49F28000805F4 /* UploadImageViewController.swift */; };
+		96CCB7E329F4A383000805F4 /* ProtocolUploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7E229F4A383000805F4 /* ProtocolUploadImage.swift */; };
+		96CCB7E529F4AD6B000805F4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCB7E429F4AD6B000805F4 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		96CCB7B329F48AF1000805F4 /* tikPhoto(final).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tikPhoto(final).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CCB7B629F48AF1000805F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96CCB7B829F48AF1000805F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96CCB7BD29F48AF1000805F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CCB7BF29F48AF3000805F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CCB7C229F48AF3000805F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CCB7C429F48AF3000805F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CCB7CA29F48EE4000805F4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		96CCB7CB29F48EE4000805F4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		96CCB7DC29F49F0E000805F4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96CCB7DE29F49F28000805F4 /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		96CCB7E229F4A383000805F4 /* ProtocolUploadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolUploadImage.swift; sourceTree = "<group>"; };
+		96CCB7E429F4AD6B000805F4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CCB7B029F48AF1000805F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CCB7AA29F48AF1000805F4 = {
+			isa = PBXGroup;
+			children = (
+				96CCB7B529F48AF1000805F4 /* tikPhoto(final) */,
+				96CCB7B429F48AF1000805F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CCB7B429F48AF1000805F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CCB7B329F48AF1000805F4 /* tikPhoto(final).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CCB7B529F48AF1000805F4 /* tikPhoto(final) */ = {
+			isa = PBXGroup;
+			children = (
+				96CCB7B629F48AF1000805F4 /* AppDelegate.swift */,
+				96CCB7B829F48AF1000805F4 /* SceneDelegate.swift */,
+				96CCB7BC29F48AF1000805F4 /* Main.storyboard */,
+				96CCB7BF29F48AF3000805F4 /* Assets.xcassets */,
+				96CCB7C129F48AF3000805F4 /* LaunchScreen.storyboard */,
+				96CCB7C429F48AF3000805F4 /* Info.plist */,
+				96CCB7CA29F48EE4000805F4 /* TableViewCell.swift */,
+				96CCB7CB29F48EE4000805F4 /* TableViewCell.xib */,
+				96CCB7DC29F49F0E000805F4 /* HomeViewController.swift */,
+				96CCB7DE29F49F28000805F4 /* UploadImageViewController.swift */,
+				96CCB7E229F4A383000805F4 /* ProtocolUploadImage.swift */,
+				96CCB7E429F4AD6B000805F4 /* TabBarViewController.swift */,
+			);
+			path = "tikPhoto(final)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CCB7B229F48AF1000805F4 /* tikPhoto(final) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CCB7C729F48AF3000805F4 /* Build configuration list for PBXNativeTarget "tikPhoto(final)" */;
+			buildPhases = (
+				96CCB7AF29F48AF1000805F4 /* Sources */,
+				96CCB7B029F48AF1000805F4 /* Frameworks */,
+				96CCB7B129F48AF1000805F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tikPhoto(final)";
+			productName = "tikPhoto(final)";
+			productReference = 96CCB7B329F48AF1000805F4 /* tikPhoto(final).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CCB7AB29F48AF1000805F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					96CCB7B229F48AF1000805F4 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 96CCB7AE29F48AF1000805F4 /* Build configuration list for PBXProject "tikPhoto(final)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CCB7AA29F48AF1000805F4;
+			productRefGroup = 96CCB7B429F48AF1000805F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CCB7B229F48AF1000805F4 /* tikPhoto(final) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CCB7B129F48AF1000805F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCB7C329F48AF3000805F4 /* LaunchScreen.storyboard in Resources */,
+				96CCB7CD29F48EE4000805F4 /* TableViewCell.xib in Resources */,
+				96CCB7C029F48AF3000805F4 /* Assets.xcassets in Resources */,
+				96CCB7BE29F48AF1000805F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CCB7AF29F48AF1000805F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CCB7E529F4AD6B000805F4 /* TabBarViewController.swift in Sources */,
+				96CCB7DF29F49F28000805F4 /* UploadImageViewController.swift in Sources */,
+				96CCB7CC29F48EE4000805F4 /* TableViewCell.swift in Sources */,
+				96CCB7E329F4A383000805F4 /* ProtocolUploadImage.swift in Sources */,
+				96CCB7B729F48AF1000805F4 /* AppDelegate.swift in Sources */,
+				96CCB7DD29F49F0E000805F4 /* HomeViewController.swift in Sources */,
+				96CCB7B929F48AF1000805F4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96CCB7BC29F48AF1000805F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CCB7BD29F48AF1000805F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CCB7C129F48AF3000805F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CCB7C229F48AF3000805F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CCB7C529F48AF3000805F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96CCB7C629F48AF3000805F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CCB7C829F48AF3000805F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4F827MJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tikPhoto(final)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.northeastern.xiaosongzhai.tikPhoto-final-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96CCB7C929F48AF3000805F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5H4F827MJY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "tikPhoto(final)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.northeastern.xiaosongzhai.tikPhoto-final-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CCB7AE29F48AF1000805F4 /* Build configuration list for PBXProject "tikPhoto(final)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCB7C529F48AF3000805F4 /* Debug */,
+				96CCB7C629F48AF3000805F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CCB7C729F48AF3000805F4 /* Build configuration list for PBXNativeTarget "tikPhoto(final)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CCB7C829F48AF3000805F4 /* Debug */,
+				96CCB7C929F48AF3000805F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CCB7AB29F48AF1000805F4 /* Project object */;
+}
